@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym website</title>
+    <style>
+        body {
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/735/263/743/muscle-muscle-training-dumbbells-wallpaper-preview.jpg');
+            background-repeat: no-repeat;
+            background-size: 1300px 800px;
+            color: white;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            top: 40px;
+
+        }
+
+        .left img {
+            width: 50px;
+            height: 30px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 50%;
+            margin: 35px auto;
+        }
+
+        .right {
+            /* border: 2px solid blue; */
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 40px;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            margin: 5px;
+            padding: 5px 15px;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+
+        .btn:hover {
+            color: gray;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+            padding: 5px 25px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover , .navbar li.activated {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .container{
+            border: 2px solid white;
+            width: 500px;
+            height: 200px;
+            font-size: 25px;
+            text-align: center;
+            padding: 10px 5px;
+            border-radius: 8px;
+            display: block;
+            position: absolute;
+            top: 209px;
+            left: 20px;;
+        }
+
+        .container input{
+            display: block;
+            padding: 5px 25px;
+            margin: 5px auto;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="downloaddqewdwq-removebg-preview.png" alt="">
+            <div class="tp">Fitness World</div>
+        </div>
+
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li class="activated"><a href="">Home</a></li>
+                    <li><a href="">About Gym</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contect Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Services</button>
+        </div>
+    </header>
+
+    <div class="container">
+        Please Fill the Form!!!
+        <form action="noForm.php">
+            <input type="text" name="" placeholder="Enter Your Name">
+            <input type="text" name="" placeholder="Enter Your Age">
+            <input type="text" name="" placeholder="Enter Your Mobile no.">
+            <input type="text" name="" placeholder="Enter Your Email Id">
+            <input type="button" value="Submit" class="btn">
+        </form>
+    </div>
+</body>
+
+</html>
